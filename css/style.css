@@ -79,13 +79,13 @@ button:hover {
 
 #header {
   padding: 40px 0;
-  z-index: 100;
+  z-index: 120;
   position: fixed;
 }
 #header .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   animation: hero 3000ms;
   animation-iteration-count: 1;
 }
@@ -103,11 +103,14 @@ button:hover {
   display: flex;
   align-items: center;
 }
+#header .navbar--logo img {
+  margin-left: 120px;
+}
 #header .navbar--logo h1 {
   font-weight: 700;
   font-size: 20px;
   color: #FFFFFF;
-  padding-left: 17px;
+  margin-left: 30px;
 }
 #header .navbar nav a {
   font-weight: 400;

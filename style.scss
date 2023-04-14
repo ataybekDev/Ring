@@ -5,7 +5,7 @@
 
   #header{
     padding: 40px 0;
-    z-index: 100;
+    z-index: 120;
     position: fixed;
     .navbar{
       @include cent();
@@ -24,11 +24,14 @@
       &--logo{
         display: flex;
         align-items: center;
+        img{
+          margin-left: 120px;
+        }
         h1{
           font-weight: 700;
           font-size: 20px;
           color: #FFFFFF;
-          padding-left: 17px;
+          margin-left: 30px;
         }
       }
       nav{
